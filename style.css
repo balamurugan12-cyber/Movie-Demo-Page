@@ -1,0 +1,247 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("bb12.avif");
+}
+
+.navbar {
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: solid transparent;
+    padding: 15px 15px;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+    width:100%;
+}
+
+#logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background 0.3s;
+}
+.nav-links a:hover {
+    background-color:gray;
+    border-radius: 4px;
+}
+.intput{
+   height: 20px;
+   width: 550px;
+}
+i{
+    color: aliceblue;
+}
+.login{
+    background-color: black;
+    position:absolute;
+    opacity:0.9;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display:none;
+    z-index: 1;
+}
+li{
+    text-decoration:none;
+    color: aliceblue;
+}
+form{
+    color: aliceblue;
+    background-color:rgb(44, 41, 41);
+    padding: 40px;
+    width:40%;
+    margin-top:10%;
+    margin-left:25%;
+    border-radius: 15px;
+    padding-top: 0%;
+    padding-right: 0%;
+    box-shadow: 2px 2px 20px cyan;
+}
+#b1{
+    background-color:red;
+    height:30px;
+    width:300px;
+    color: antiquewhite;
+    border-radius: 15px;
+    margin-left:18%;
+    margin-top:5%;
+    padding-top: 5px;
+    padding-bottom:20px;
+    
+}
+#H1{
+    padding-top: 15px;
+    margin-left:25%;
+    color:white;
+    text-shadow: 0px 0px 10px cyan,0px 0px 20px cyan,0px 0px 40px cyan,0px 0px 80px cyan;
+}
+#cancel{
+    display:inline;
+    float: right;
+    color: white;
+    margin-top:30px;
+    margin-right: 15px;
+    
+}
+.in1, .in2{
+    width:450px;
+    height:30px;
+    border-radius: 10px;
+    position: relative;
+}
+#cancel:hover{
+    background-color:gray;
+    border-radius: 20px;
+}
+#xx{
+    color: white;
+    text-decoration:none;
+    padding: 15px;
+}
+#H3,#H2{
+    color:white;
+}
+.in2:hover{
+    border: none;
+}
+.content{
+    color: white;
+    margin-left:20px;
+    background-color:rgb(56, 46, 83);
+    opacity:0.8;
+    position: relative;
+    display: inline-block;
+    margin-top:35px;
+    width:50%;
+    border-radius: 20px;
+    height:400px;
+    box-shadow: 2px 2px 20px cyan;
+}
+.movielist{
+    list-style-type: none;
+    font-size: 24px;
+    margin-top:35px;
+
+}
+.images{
+    display:inline-flex;
+    width:45%;
+    height:400px;
+    float:right;
+    margin-top:35px;
+    gap:5px;
+}
+.images img{
+    width:15%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition:all ease-in-out 0.7s;
+}
+.images img:hover{
+    width:30%;
+}
+.g1{
+    margin-left:3%;
+    color:white;
+    padding: 5px;
+    text-shadow: 0px 0px 10px cyan,0px 0px 20px cyan,0px 0px 40px cyan,0px 0px 80px cyan;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+#lt{
+    word-spacing:3px;
+    order:3px;
+    text-align: center;
+}
+#lt:hover{
+    font-size: 40px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+#one1{
+    margin-top:3%;
+}
+#mdcontent{
+    background-color: rgb(56, 46, 83);
+    margin:2%;
+    height:700px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px cyan;
+    display: block;
+    position: relative;
+}
+#mt1{
+    margin-left:3%;
+    color:white;
+    padding: 5px;
+    text-shadow: 0px 0px 10px cyan,0px 0px 20px cyan,0px 0px 40px cyan,0px 0px 80px cyan;
+}
+.imgdb{
+    display:inline-flex;
+    width:80%;
+    height:400px;
+    float:center;
+    margin-top:35px;
+    margin-left:80px;
+    gap: 5px;
+
+}
+.imgdb img{
+    width:15%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition:all ease-in-out 0.7s;
+}
+.imgdb img:hover{
+    width:30%;
+}
+#mt2{
+    display: block;
+    color:white;
+    padding: 5px;
+    text-shadow: 0px 0px 10px cyan,0px 0px 20px cyan,0px 0px 40px cyan,0px 0px 80px cyan;
+}
+#pp{
+    color: white;
+    margin-left:3.5%;
+}
+#oo{
+    color:whitesmoke;
+}
+#aa1{
+    color:whitesmoke;
+}
+
+
+
+
+
+
+
+
+
